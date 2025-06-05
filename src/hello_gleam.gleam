@@ -1,5 +1,5 @@
 import gleam/io
-import user_input
+import libs/user_input
 
 pub fn main() -> Nil {
   let name = user_input.get("Whats your name\n")
